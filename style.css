@@ -80,3 +80,26 @@ a {
     /* border-radius: 7px; */
     height: 45px;
 }
+
+.hero {
+    background-image: url("hero_image_02.jpg");
+    background-size: cover;
+    width: 1280px;
+    height: 380px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.data {
+    width: 440px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
