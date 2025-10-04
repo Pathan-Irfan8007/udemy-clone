@@ -92,7 +92,6 @@ a {
     height: 380px;
     margin-left: 100px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -134,3 +133,93 @@ a {
     color: rgb(40, 40, 40);
     margin-bottom: 30px;
 }
+
+.main {
+    padding: 80px;
+    padding-top: 40px;
+    
+    
+}
+
+.main p {
+    font-size: 20px;
+    color: rgba(71, 62, 62, 0.799);
+    margin-bottom: 30px;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    padding-top: 5px;
+    margin-bottom: 80px;
+}
+
+.box1_img {
+    background-image: url("box_1.webp");
+    background-size: cover; ;
+    width: 365px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.box2_img {
+    background-image: url("box_2.webp");
+    background-size: cover;
+    width: 365px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.box3_img {
+    background-image: url("box_3.webp");
+    background-size: cover;
+    width: 365px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.end_button {
+    border: 0.8px solid rgba(64, 69, 105, 0.703);
+    border-radius: 5px;
+    width: 59px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.rating {
+    border: 0.8px solid rgba(64, 69, 105, 0.703);
+    border-radius: 5px;
+    width: 70px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_box {
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    padding-top: 26px;
+    padding-left: 26px;
+    border: 0.5px solid rgba(116, 121, 106, 0.356);
+    border-radius: 10px;
+}
+
+.course_box:hover {
+    background-color: rgba(234, 241, 234, 0.591);
+}
+
