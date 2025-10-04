@@ -2,6 +2,10 @@
     font-family: Arial;
 }
 
+body {
+    background-color: rgba(245, 241, 238, 0.68);
+}
+
 .header {
     background-color: whitesmoke;
     height: 70px;
@@ -88,18 +92,45 @@ a {
     height: 380px;
     margin-left: 100px;
     display: flex;
+    /* justify-content: center; */
     align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
 }
 
-.data {
-    width: 440px;
-    height: 240px;
+.link {
+    width: 250px;
+    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    border: 1.5px solid #6d28d2;
+    background-color: #6d28d2;
+    border-radius: 7px;
+    justify-content: center;
 }
 
+.link a {
+    color: white;
+    font-weight: bolder;
+}
 
+.box {
+    margin-left: 100px;
+    background-color: white;
+    width: 340px;
+    height: 200px;
+    padding: 30px;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 17px;
+    color: rgb(40, 40, 40);
+    margin-bottom: 30px;
+}
