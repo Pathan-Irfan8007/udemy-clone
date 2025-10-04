@@ -111,6 +111,14 @@ a {
     font-weight: bolder;
 }
 
+.link:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
 .box {
     margin-left: 100px;
     background-color: white;
@@ -197,16 +205,18 @@ a {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+    color: rgb(119, 112, 112);
 }
 
 .rating {
     border: 0.8px solid rgba(64, 69, 105, 0.703);
     border-radius: 5px;
-    width: 70px;
+    width: 130px;
     height: 23px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(119, 112, 112);
 }
 
 .course_box {
@@ -223,3 +233,124 @@ a {
     background-color: rgba(234, 241, 234, 0.591);
 }
 
+.about_udemy dt {
+    font-size: 25px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.about_udemy dd {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: rgba(71, 62, 62, 0.799);
+}
+
+.about_udemy dl {
+    padding-left: 50px;
+}
+
+.subscription {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    /* margin-bottom: 70px; */
+}
+
+.plans {
+    margin-left: 25px;
+    margin-left: 25px;
+    background-color: white;
+    border: 1.5px solid rgba(87, 87, 147, 0.813);
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    border-top: 5px solid rgba(50, 50, 227, 0.934);
+}
+
+.plans i, p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.top {
+    padding-left: 60px;
+    padding-top: 10px;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 25px;
+    background-color: rgba(206, 206, 220, 0.587);
+}
+
+.top h5 {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 13px;
+    color: rgba(71, 70, 70, 0.774);
+    margin-top: 0px;
+}
+
+.top h4 {
+    margin-bottom: 8px;
+}
+
+.sub {
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.sub li {
+    margin-bottom: 15px;
+    color: rgba(42, 30, 64, 0.719);
+}
+
+.plans:hover {
+    background-color: rgba(175, 175, 182, 0.331);
+}
+
+.main {
+    padding-bottom: 0px;
+}
+
+.footer {
+    background-color: #202230;
+    height: 200px;
+    margin-top: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.about {
+    color: white;
+    font-size: 17px;
+}
+
+.about a {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.about a:hover {
+    text-decoration: underline;
+    color: rgb(225, 220, 220);
+}
+
+.end_code {
+    background-color: #2A2B3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.end_code p {
+    color: rgb(152, 166, 173);
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
